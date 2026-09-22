@@ -1,0 +1,2 @@
+libadb.so: AOSP adb built for Android arm64, taken from https://github.com/tytydraco/LADB (app/src/main/jniLibs/arm64-v8a/libadb.so, HEAD 2026-09-16).
+License: Apache License 2.0 (see adb-LICENSE.txt). Verified on SM-F971N Android 17: pair/connect/shell as uid 2000.

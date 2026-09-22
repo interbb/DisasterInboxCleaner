@@ -1,0 +1,24 @@
+*.iml
+.gradle/
+.gradle-user/
+.idea/
+.android-sdk/
+.android-user/
+local.properties
+build/
+**/build/
+captures/
+.DS_Store
+
+# Signing material — never publish, even a debug keystore
+*.jks
+*.keystore
+
+# Working notes from the development sessions: internal reports, review packages,
+# device traces. Kept locally, not published.
+.superpowers/
+
+# Scratch from the guide-capture tools. lib.sh writes raw, unmasked screenshots and
+# uiautomator dumps there (device name, phone number, IMEI, pairing codes), so they must
+# never leave the machine. What ships is the masked, annotated WebPs under app/src/main/res.
+tools/guide/raw/

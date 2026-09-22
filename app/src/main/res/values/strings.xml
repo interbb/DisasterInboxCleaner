@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">문자함 정리</string>
+    <string name="notification_access_label">문자함 감시</string>
+</resources>
